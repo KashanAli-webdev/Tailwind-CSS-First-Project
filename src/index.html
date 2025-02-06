@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Tailwind Web</title>
+</head>
+
+<body class="bg-slate-900 text-slate-50 text-sm xl:text-base">
+
+  <!-- start of the navbar -->
+  <header class="bg-violet-600">
+    <nav class="h-14 px-4 md:px-16 lg:px-28 flex justify-between items-center max-w-screen-2xl mx-auto">
+      <img src="images/assassins-creed-odyssey-logo.png" alt="logo image" class="w-12 aspect-square">
+
+      <ul class="hidden md:flex space-x-4 uppercase font-medium">
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">contact</a></li>
+      </ul>
+
+      <a href="#"
+        class="hidden md:inline-block capitalize font-medium bg-emerald-500 px-5 py-1 rounded hover:bg-emerald-600">
+        sign up/ sign in</a>
+
+      <a href="#" class="inline-block md:hidden text-4xl">&#8801;</a>
+    </nav>
+  </header>
+  <!-- end of the navbar -->
+
+
+  <!-- start of the hero section -->
+  <main class="bg-gradient-to-r from-cyan-500 to-blue-500">
+    <section
+      class="px-4 md:px-16 lg:px-28 grid gap-5 grid-cols-1 lg:grid-cols-2 h-[calc(100vh-3.5rem)] max-w-screen-2xl mx-auto">
+
+      <div class="flex flex-col justify-center items-center h-[calc(50vh-5rem)] lg:h-full">
+        <h1 class="text-4xl xl:text-5xl font-bold text-center text-violet-900">
+          Welcome to Tailwind Web
+        </h1>
+
+        <p class="text-xl mt-4">
+          The best place to learn Tailwind CSS
+        </p>
+      </div>
+
+      <div class="h-[50vh] lg:h-full">
+        <img src="images/maxime-lariviere-spr004.jpg" alt="hero image"
+          class="h-full w-full object-fill lg:object-cover">
+      </div>
+
+    </section>
+  </main>
+  <!-- end of the hero section -->
+
+  <!-- start of the about section -->
+  <section class="px-4 md:px-16 lg:px-24 my-16">
+    <header class="my-10 flex gap-2 lg:gap-4 flex-wrap flex-col justify-center items-center">
+      <h2 class="text-2xl xl:text-3xl font-bold text-violet-500 capitalize">About Tailwind Web</h2>
+
+      <div class="w-24 h-1 bg-emerald-300 rounded-2xl"></div>
+    </header>
+
+
+    <div class="my-16 flex gap-8 flex-wrap justify-center items-center">
+
+      <article class="bg-slate-800 h-80 w-64 p-4 rounded-xl overflow-hidden">
+        <figure class="flex flex-col items-center">
+          <img src="images/assassins-creed-unity-logo.jpg" alt="ac unity logo"
+            class="w-20 aspect-square object-cover rounded-full">
+        </figure>
+
+        <h3 class="text-md xl:text-lg font-bold mt-5 capitalize">Assassin's Creed Unity</h3>
+
+        <p class="mt-3">
+          Assassin's Creed Unity is an action-adventure video game developed by Ubisoft Montreal and published by
+          Ubisoft.
+        </p>
+      </article>
+
+      <article class="bg-slate-800 h-80 w-64 p-4 rounded-xl overflow-hidden">
+        <figure class="flex flex-col items-center">
+          <img src="images/ac-origins-logo.jpg" alt="ac origins logo"
+            class="w-20 aspect-square object-cover rounded-full">
+        </figure>
+
+        <h3 class="text-md xl:text-lg font-bold mt-5 capitalize">Assassin's Creed Origins</h3>
+
+        <p class="mt-3">
+          Assassin's Creed Origins is an action-adventure video game developed by Ubisoft Montreal and published by
+          Ubisoft.
+        </p>
+      </article>
+
+      <article class="bg-slate-800 h-80 w-64 p-4 rounded-xl overflow-hidden">
+        <figure class="flex flex-col items-center">
+          <img src="images/assassin's-creed-odyssey-thumbnail.jpg" alt="ac odyssey logo"
+            class="w-20 aspect-square object-cover rounded-full">
+        </figure>
+
+        <h3 class="text-md xl:text-lg font-bold mt-5 capitalize">Assassin's Creed Odyssey</h3>
+
+        <p class="mt-3">
+          Assassin's Creed Odyssey is an action role-playing video game developed by Ubisoft Quebec and published by
+          Ubisoft.
+        </p>
+      </article>
+
+      <article class="bg-slate-800 h-80 w-64 p-4 rounded-xl overflow-hidden">
+        <figure class="flex flex-col items-center">
+          <img src="images/ac-valhalla.png" alt="ac valhalla logo" class="w-20 aspect-square object-cover rounded-full">
+        </figure>
+
+        <h3 class="text-md xl:text-lg font-bold mt-5 capitalize">Assassin's Creed Valhalla</h3>
+
+        <p class="mt-3">
+          Assassin's Creed Valhalla is an action role-playing video game developed by Ubisoft Montreal and published
+          by Ubisoft.
+        </p>
+      </article>
+
+      <article class="bg-slate-800 h-80 w-64 p-4 rounded-xl overflow-hidden">
+        <figure class="flex flex-col items-center">
+          <img src="images/ac-mirage-logo.jpg" alt="ac mirage logo"
+            class="w-20 aspect-square object-cover rounded-full">
+        </figure>
+
+        <h3 class="text-md xl:text-lg font-bold mt-5 capitalize">Assassin's Creed Mirage</h3>
+
+        <p class="mt-3">
+          Assassin's Creed Mirage is an action-adventure video game developed by Ubisoft Montreal and published by
+          Ubisoft.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="px-4 md:px-16 lg:px-24 my-16">
+    <div class="my-10 flex gap-2 lg:gap-4 flex-wrap flex-col justify-center items-center">
+      <h2 class="text-2xl xl:text-3xl font-bold text-violet-500 capitalize">
+        best assassin's creed
+      </h2>
+      <div class="w-24 h-1 bg-emerald-300 rounded-2xl"></div>
+    </div>
+
+
+    <div class="my-16 flex gap-6 flex-wrap justify-center items-center">
+
+      <article class="bg-slate-500 h-20 w-4/5 lg:w-[22rem] rounded-xl overflow-hidden flex items-center">
+        <img src="images/jean-francois-duval-40.jpg" alt="ac unity image" class="h-full aspect-square object-cover">
+
+        <div class="p-2">
+          <h3 class="text-lg font-bold text-emerald-300 capitalize">Assassin's Creed Unity</h3>
+
+          <p class="text-sm capitalize">
+            french revolution era.
+          </p>
+        </div>
+      </article>
+
+      <article class="bg-slate-500 h-20 w-4/5 lg:w-[22rem] rounded-xl overflow-hidden flex items-center">
+        <img src="images/georgi-georgiev-georgi-georgiev-cyrene-2.jpg" alt="ac origins image"
+          class="h-full aspect-square object-cover">
+
+        <div class="p-2">
+          <h3 class="text-lg font-bold text-emerald-300 capitalize">Assassin's Creed Origins</h3>
+
+          <p class="text-sm capitalize">
+            egypt's last ptolemaic era.
+          </p>
+        </div>
+      </article>
+
+      <article class="bg-slate-500 h-20 w-4/5 lg:w-[22rem] rounded-xl overflow-hidden flex items-center">
+        <img src="images/maxime-lariviere-ath007.jpg" alt="ac odyssey image" class="h-full aspect-square object-cover">
+
+        <div class="p-2">
+          <h3 class="text-lg font-bold text-emerald-300 capitalize">Assassin's Creed Odyssey</h3>
+
+          <p class="text-sm capitalize">
+            greek peloponnesian war era.
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+  <!-- end of the about section -->
+
+  <!-- start of the footer -->
+  <footer class="bg-slate-800 max-w-screen-2xl mx-auto">
+  </footer>
+  <!-- end of the footer -->
+
+</body>
+
+</html>
